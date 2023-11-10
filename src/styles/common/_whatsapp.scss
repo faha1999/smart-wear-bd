@@ -1,0 +1,41 @@
+.whatsappWrapper {
+  position: fixed;
+  top: 90%;
+  right: 2%;
+  height: 3rem;
+  display: flex;
+
+  .icon {
+    svg {
+      width: 3rem;
+      height: 3rem;
+      color: green;
+    }
+  }
+
+  .wrapperDetails {
+    margin-top: 0.5rem;
+    background: $orange;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.35rem;
+    color: $white;
+    display: none;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+
+  &:hover {
+    .wrapperDetails {
+      display: block !important;
+      transition: 4s ease-in;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whatsappWrapper {
+    top: 83%;
+  }
+}

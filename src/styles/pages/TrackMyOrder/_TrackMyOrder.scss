@@ -1,0 +1,106 @@
+.trackMyOrder {
+  h1 {
+    color: $orange;
+    font-size: 1.7625rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .search-box {
+    width: 80%;
+    border: 0.125rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.525rem;
+    display: flex;
+    padding-top: 0.1rem;
+    margin: 0 auto;
+
+    svg {
+      width: 5%;
+      margin: 0.9375rem 1.25rem;
+      font-size: 1.0625rem;
+      color: $gray;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.525rem;
+
+      &::placeholder {
+        font-size: 0.9375rem;
+      }
+    }
+
+    button {
+      width: 20%;
+      padding: 0.825rem;
+      border: 0.125rem solid rgba(0, 0, 0, 0.1) !important;
+
+      &:hover {
+        background: $orange !important;
+        color: $white;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .error-message {
+    padding-top: 1rem;
+    color: red;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+
+  .tracking-status-container {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .tracking-status {
+    display: flex;
+  }
+
+  .tracking-status,
+  .delivery-info {
+    h2 {
+      font-size: 1.125rem;
+    }
+
+    span {
+      color: $orange;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+
+    button {
+      color: $orange;
+      font-size: 1rem;
+      background: transparent;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+        transition: 0.4s ease-in;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .trackMyOrder {
+    .search-box {
+      width: 100%;
+
+      svg {
+        width: 10%;
+        margin: 0.123rem 0.45rem;
+        font-size: 3.0625rem;
+        color: #808080;
+      }
+    }
+    .tracking-status-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.d-sm-none {
+  display: block;
+}
+
+.d-sm-block {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1024px) {
+}

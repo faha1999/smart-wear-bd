@@ -1,0 +1,18 @@
+.head {
+  background-color: $orange;
+  padding: 0.625rem 0;
+  color: $white;
+
+  svg,
+  span {
+    margin-right: 0.625rem;
+    vertical-align: middle;
+  }
+
+  a {
+    margin-right: 1.875rem;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    color: $white;
+  }
+}

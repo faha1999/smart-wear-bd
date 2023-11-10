@@ -1,0 +1,208 @@
+.checkOutSection {
+  padding: 1rem 0;
+
+  h3 {
+    padding-bottom: 1rem;
+  }
+
+  .clientInfo {
+    width: 70%;
+    margin-bottom: 1rem;
+
+    .cardDate {
+      gap: 1rem;
+    }
+
+    .checkoutButton {
+      padding: 0.5rem 0;
+      width: 100%;
+      border-radius: 0.225rem;
+      background: $orange;
+      color: $white;
+      font-size: 1rem;
+    }
+
+    form {
+      margin-bottom: 1rem;
+      input,
+      .select {
+        border: 0.0625rem solid $gray;
+        border-radius: 0.225rem;
+        padding: 0.125rem 0.5rem;
+        width: 100%;
+      }
+
+      .address {
+        width: 207%;
+      }
+
+      .dc_flex {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .select {
+        width: 17.3rem;
+        background: $white;
+      }
+
+      ul {
+        position: absolute;
+        background: $offWhite;
+        width: 17.3rem;
+        margin-top: 1.5rem;
+        padding: 1rem;
+
+        li {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .currentCart {
+    width: 28%;
+  }
+}
+
+.currentCurtItems {
+  background: $offWhite;
+  border-radius: 0.25rem;
+
+  .product {
+    background: none;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
+    border-bottom: 0.0625rem solid #dfdcdc;
+    padding: 1rem;
+
+    img {
+      width: 5rem;
+    }
+
+    .cart-details {
+      h3 {
+        font-size: 1rem;
+      }
+
+      h4 {
+        font-size: 0.8rem;
+
+        span {
+          color: $orange;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+    .cart-items-function {
+      button {
+        background: transparent;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.125rem;
+
+        svg {
+          padding: 0.01rem;
+        }
+      }
+      .removeCart {
+        text-align: right;
+        margin-right: -0.525rem;
+        color: $orange;
+      }
+
+      .cartControl {
+        margin-top: 0.8rem;
+        margin-right: -1.525rem;
+      }
+    }
+  }
+
+  .totalPrice {
+    padding: 1rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .checkOutSection {
+    .d_flex {
+      flex-direction: column-reverse;
+
+      .clientInfo,
+      .currentCart {
+        width: 100% !important;
+      }
+
+      .clientInfo {
+        form {
+          div {
+            padding-bottom: 1rem;
+          }
+
+          .address {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .currentCurtItems {
+    .product {
+      flex-direction: row;
+
+      .cart-items-function {
+        .cartControl {
+          flex-direction: row;
+        }
+      }
+    }
+
+    .totalPrice {
+      flex-direction: row;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .checkOutSection {
+    .d_flex {
+      flex-direction: column-reverse;
+
+      .clientInfo,
+      .currentCart {
+        width: 100% !important;
+      }
+
+      .clientInfo {
+        form {
+          div {
+            padding-bottom: 1rem;
+          }
+
+          .address {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .currentCurtItems {
+    .product {
+      flex-direction: row;
+
+      .cart-items-function {
+        .cartControl {
+          flex-direction: row;
+        }
+      }
+    }
+
+    .totalPrice {
+      flex-direction: row;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+}

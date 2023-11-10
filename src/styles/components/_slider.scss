@@ -1,0 +1,42 @@
+.contentWidth {
+  width: 77%;
+}
+
+.homeSlide {
+  padding-bottom: 3rem;
+
+  h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contentWidth {
+    width: 100%;
+  }
+
+  .homeSlide {
+    .d_flex {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contentWidth {
+    width: 100%;
+  }
+}

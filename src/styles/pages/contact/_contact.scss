@@ -1,0 +1,79 @@
+.contact {
+  padding: 1.2rem 0;
+
+  p {
+    padding-top: 1rem;
+  }
+  .contact_img {
+    text-align: center;
+
+    img {
+      height: auto;
+    }
+  }
+
+  .familyDetails {
+    .card {
+      background: $offWhiteLight;
+      text-align: center;
+      width: 13.5rem;
+      margin-top: 1rem;
+
+      svg {
+        font-size: 5rem;
+        color: $orange;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+        padding-bottom: 0.6rem;
+        color: $gray;
+      }
+    }
+  }
+
+  .contactUs {
+    margin-top: 1rem;
+
+    a {
+      color: $orange;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    img {
+      width: 20rem;
+    }
+
+    .d_flex {
+      flex-direction: column;
+    }
+
+    .familyDetails {
+      .card {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact {
+    img {
+      width: 35rem;
+    }
+
+    .d_flex {
+      flex-flow: row wrap;
+
+      .card {
+        width: 20rem;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+}

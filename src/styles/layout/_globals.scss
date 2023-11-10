@@ -1,0 +1,91 @@
+body {
+  background-color: $white;
+}
+
+main {
+  overflow: hidden;
+}
+
+.background {
+  background: $offWhite;
+  padding: 3.125rem 0;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.c_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.RText {
+  text-align-last: right;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.row {
+  width: 50%;
+}
+.icon-circle {
+  width: 2.125rem;
+  height: 2.125rem;
+  line-height: 2.125rem;
+  background: $white;
+  margin-left: 1.25rem;
+  text-align: center;
+  border-radius: 50%;
+}
+.boxShadow {
+  box-shadow: rgb(43 52 69 / 10%) 0rem 0.25rem 1rem;
+}
+
+.top {
+  margin-top: 80px;
+}
+.mtop {
+  margin-top: 40px;
+}
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $orange;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: $offWhite;
+  margin: 10px;
+}
+
+.p-1 {
+  padding: 1rem !important;
+}
+
+.thin {
+  font-weight: 100;
+}

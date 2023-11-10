@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+  .announcement {
+    .d_flex {
+      flex-direction: column;
+
+      .img {
+        width: 100% !important;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

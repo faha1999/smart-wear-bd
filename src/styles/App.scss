@@ -1,0 +1,44 @@
+// util
+@import './util/variables';
+
+// base
+@import './base/base';
+
+// layout
+@import './layout/globals';
+@import './layout/button';
+@import './layout/swiper';
+@import './layout/globalsMedia';
+
+// common
+@import './common/topBar';
+@import './common/search';
+@import './common/navBar';
+@import './common/header/mobileNav';
+@import './common/whatsapp';
+
+// pages
+@import './pages/contact/contact';
+@import './pages/TrackMyOrder/TrackMyOrder';
+@import './pages/CheckOut/CheckOut';
+@import './pages/user/user';
+
+// components
+@import './components/categories';
+@import './components/slider';
+@import './components/FlashDeals/FlashDeals';
+@import './components/FlashDeals/flashCard';
+@import './common/cart/cart';
+@import './components/topCategories/topCategories';
+@import './components/topCategories/topCart';
+@import './components/NewArrivals/NewArrivals';
+@import './components/shop/shop';
+@import './components/Wrapper/wrapper';
+@import './common/footer/footer';
+@import './components/announcement/announcement';
+
+// MyOrderDetails
+@import './pages/TrackMyOrder/partials/MyOrderDetails';
+
+// productsDetails
+@import './productDetals/product';

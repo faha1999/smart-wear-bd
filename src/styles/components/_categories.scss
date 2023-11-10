@@ -1,0 +1,41 @@
+.category {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  background-color: $white;
+  width: 23%;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+
+  .box {
+    transition: 0.5s;
+    padding: 0 20px;
+
+    &:hover {
+      background-color: $orange;
+      cursor: pointer;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      margin-top: 10px;
+      object-fit: contain;
+    }
+    span {
+      margin: 10px 20px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .category {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .category {
+    display: none;
+  }
+}

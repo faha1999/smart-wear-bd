@@ -1,0 +1,74 @@
+.product {
+  background: $offWhiteLight;
+  padding: 1.25rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: rgb(3 0 71 / 9%) 0rem 0.0625rem 0.1875rem;
+  margin: 0.625rem;
+
+  &:hover .product-like {
+    opacity: 1;
+  }
+
+  img {
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 1.0625rem;
+  }
+  .rate {
+    svg {
+      font-size: 0.9375rem;
+      color: $orangeLight;
+      margin: 0.3125rem 0.3125rem 0.3125rem 0;
+    }
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    color: $orange;
+
+    button {
+      background: none;
+      color: $orange;
+      font-size: 1.25rem;
+      transition: 0.5s;
+      border: 0.0625rem solid rgb(3 0 71 / 9%);
+      width: 2.1875rem;
+      height: 2.1875rem;
+      border-radius: 0.3125rem;
+      padding-top: 0.25rem;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $orange;
+        color: $offWhite;
+      }
+    }
+  }
+
+  .product-like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.625rem;
+    opacity: 0;
+    transition: 0.5s;
+
+    label {
+      background-color: $darkBlue;
+      padding: 0.0625rem 0.625rem;
+      font-size: 0.75rem;
+      color: $white;
+      border-radius: 3.125rem;
+    }
+    svg {
+      font-size: 1.25rem;
+      margin: 0.625rem 0.1875rem;
+    }
+  }
+}

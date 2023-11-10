@@ -1,0 +1,23 @@
+.heading {
+  .heading-left {
+    svg {
+      font-size: 1.875rem;
+      margin-top: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5625rem;
+      margin: 0.3125rem;
+    }
+  }
+
+  .heading-right {
+    text-align: right;
+    color: grey;
+
+    svg {
+      color: $orange;
+      padding-top: 0.25rem;
+      font-size: 1.125rem;
+    }
+  }
+}

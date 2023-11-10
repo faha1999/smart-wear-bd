@@ -1,0 +1,119 @@
+@media screen and (max-width: 767px) {
+  .mobileNav {
+    background-color: $offWhite;
+    position: fixed;
+    display: flex;
+    padding: 0.7rem 0;
+    bottom: 0;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    justify-content: space-around;
+    z-index: 5;
+    align-items: center;
+    box-shadow: -0.0625rem 0.9375rem 1.0625rem -0.5rem rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+
+    svg {
+      color: $orange;
+      font-size: 2rem;
+    }
+
+    .toggle {
+      background: transparent;
+    }
+
+    .nav-links-Mobile {
+      list-style: none;
+      box-shadow: rgb(50 50 93 / 23%) 0rem 3.125rem 6.25rem -1.25rem,
+        rgb(0 0 0 / 30%) 0rem 1.875rem 3.75rem -1.875rem;
+      left: 0;
+      transition: all 0.5s ease-in-out;
+      width: 60%;
+      background-color: $white;
+      z-index: 20;
+      position: fixed;
+      height: 100vh;
+      //overflow-y: scroll;
+      bottom: 0;
+    }
+
+    .MobileCategory {
+      list-style: none;
+      box-shadow: rgb(50 50 93 / 23%) 0rem 3.125rem 6.25rem -1.25rem,
+        rgb(0 0 0 / 30%) 0rem 1.875rem 3.75rem -1.875rem;
+      left: 0;
+      transition: all 0.5s ease-in-out;
+      width: 60%;
+      background-color: $white;
+      z-index: 20;
+      position: fixed;
+      height: 100vh;
+      //overflow-y: scroll;
+      bottom: 0;
+    }
+
+    .mobileClose {
+      background: transparent;
+      margin-right: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .MobileCategory {
+      padding: 15px 0;
+      //margin-top: 5px;
+
+      .box {
+        transition: 0.5s;
+        padding: 0 20px;
+
+        &:hover {
+          background-color: $orange;
+          cursor: pointer;
+        }
+
+        img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px;
+          object-fit: contain;
+        }
+        span {
+          margin: 10px 20px;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .cart {
+      position: relative;
+
+      span {
+        position: absolute;
+        top: -0.625rem;
+        right: 0rem;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        text-align: center;
+        background-color: $orange;
+        font-size: 0.75rem;
+        color: $white;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
+}

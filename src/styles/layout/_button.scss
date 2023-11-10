@@ -1,0 +1,19 @@
+.btn-primary {
+  background: $orange;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: transparent !important;
+    border: 1px solid $orange;
+    color: $orange;
+    transition: 0.4s ease-in-out;
+  }
+}
+
+button {
+  cursor: pointer;
+}
