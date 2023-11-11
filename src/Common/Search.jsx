@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/Smart-ware-bd(seasonal).png';
+import logo from '../assets/images/Smart-ware-bd.png';
 import { Link } from 'react-router-dom';
 import { BsSearch } from 'react-icons/bs';
 import { FaUserAlt } from 'react-icons/fa';

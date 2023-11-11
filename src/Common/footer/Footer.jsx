@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAppStore, FaGooglePlay } from 'react-icons/fa';
-import logo from '../../assets/images/Smart-ware-bd(seasonal).png';
+import logo from '../../assets/images/Smart-ware-bd.png';
 import payment from '../../assets/payment.png';
 
 export const Footer = () => {
