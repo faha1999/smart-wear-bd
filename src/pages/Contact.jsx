@@ -43,7 +43,7 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="sijonalFamily">
+            <div className="Smart-ware-bdFamily">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quam
                 odio. Voluptate quas quis atque eius necessitatibus quo aut
@@ -75,7 +75,9 @@ export const Contact = () => {
               </h3>
               <h3>
                 Email us at{' '}
-                <a href="mailto:hello@sijonal.com">hello@sijonal.com</a>
+                <a href="mailto:hello@Smart-ware-bd.com">
+                  hello@Smart-ware-bd.com
+                </a>
               </h3>
             </div>
           </div>

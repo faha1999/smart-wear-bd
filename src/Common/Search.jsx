@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/sijonal(seasonal).png';
+import logo from '../assets/images/Smart-ware-bd(seasonal).png';
 import { Link } from 'react-router-dom';
 import { BsSearch } from 'react-icons/bs';
 import { FaUserAlt } from 'react-icons/fa';
@@ -17,7 +17,7 @@ export const Search = ({ CartItem }) => {
         <div className="container c_flex d-flex-colum">
           <div className="logo width">
             <Link to="/">
-              <img src={logo} alt="sijonal" />
+              <img src={logo} alt="Smart-ware-bd" />
             </Link>
           </div>
 

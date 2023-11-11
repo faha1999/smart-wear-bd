@@ -55,7 +55,7 @@ export const App = () => {
 
   return (
     <>
-      <PageTitle title="sijonal - the best online shop in Bangladesh." />
+      <PageTitle title="Smart-ware-bd - the best online shop in Bangladesh." />
       <BrowserRouter>
         <Header CartItem={CartItem} />
         <Whatsapp />

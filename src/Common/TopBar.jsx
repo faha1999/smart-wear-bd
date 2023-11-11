@@ -11,7 +11,7 @@ export const TopBar = () => {
             <BsFillTelephoneFill />
             <a href="tel:+100120000000">+10012 0000 0000</a>
             <BsEnvelopeFill />
-            <a href="mailto:hello@sijonal.com">hello@sijonal.com</a>
+            <a href="mailto:hello@Smart-ware-bd.com">hello@Smart-ware-bd.com</a>
           </div>
 
           <div className="right row RText">

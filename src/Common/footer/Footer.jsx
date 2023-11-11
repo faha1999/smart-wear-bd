@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAppStore, FaGooglePlay } from 'react-icons/fa';
-import logo from '../../assets/images/sijonal(seasonal).png';
+import logo from '../../assets/images/Smart-ware-bd(seasonal).png';
 import payment from '../../assets/payment.png';
 
 export const Footer = () => {
@@ -9,7 +9,7 @@ export const Footer = () => {
       <footer>
         <div className="container grid2">
           <div className="box">
-            <img src={logo} alt="sijonal(seasonal)" />
+            <img src={logo} alt="Smart-ware-bd(seasonal)" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
               libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat
@@ -53,7 +53,7 @@ export const Footer = () => {
               <li>
                 70 Washington Square South, New York, NY 10012, United States{' '}
               </li>
-              <li>Email: info@sijonal.com</li>
+              <li>Email: info@Smart-ware-bd.com</li>
               <li>Phone: +1 1123 456 780</li>
             </ul>
           </div>
@@ -63,7 +63,8 @@ export const Footer = () => {
             <img src={payment} alt="payment" />
           </div>
           <p style={{ marginTop: '1rem', opacity: '.4' }}>
-            &copy; sijonal.com {new Date().getFullYear()} All right reserved.
+            &copy; Smart-ware-bd.com {new Date().getFullYear()} All right
+            reserved.
           </p>
         </div>
       </footer>
